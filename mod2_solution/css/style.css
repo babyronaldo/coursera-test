@@ -1,0 +1,89 @@
+/********** Base styles **********/
+
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+p {
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 8px;
+}
+
+.row {
+    width: 100%;
+}
+
+.div-styling {
+    overflow-y: hidden;
+    border: 1px solid black;
+    padding-bottom: 7px;
+}
+
+.section-style {
+    width: 35%;
+    float: right;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.chicken {
+    background-color: burlywood;
+}
+
+.beef {
+    background-color: darkslategrey;
+    color: aliceblue;
+}
+
+.sushi {
+    background-color: cyan;
+}
+
+/********** Mobile devices only **********/
+
+@media screen and (max-width: 767px) {
+    .div-styling {
+        width: 98%;
+        float: left;
+        margin: 1%;
+        background-color: cornsilk;
+    }
+}
+
+/********** Tablet devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .div-styling {
+        width: 48%;
+        float: left;
+        margin: 1%;
+        background-color: cornsilk;
+    }
+    .third-div {
+        width: 98%;
+    }
+    .third-section {
+        width: 17%;;
+    }
+}
+
+/********** Desktop devices only **********/
+
+@media (min-width: 992px) {
+    .div-styling {
+        width: 31%;
+        float: left;
+        margin: 1%;
+        background-color: cornsilk;
+    }
+}
